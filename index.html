@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bootstrap 5 pratique</title>
+  </head>
+  <body>
+    <nav
+      class="cc-navbar navbar navbar-expand-lg position-fixed navbar-dark w-100"
+    >
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand text-uppercase fw-bolder mx-4 py-3"
+          >Ma page en Bootstrap</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item pe-4">
+              <a href="#" class="nav-link active" aria-current="page"
+                >Acceuil</a
+              >
+            </li>
+            <li class="nav-item pe-4">
+              <a href="#" class="nav-link">Découvrir</a>
+            </li>
+            <li class="nav-item pe-4">
+              <a href="#" class="nav-link">Les classiques</a>
+            </li>
+            <li class="nav-item pe-4">
+              <a href="#" class="btn btn-order rounded-1"
+                >Passer une commande</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section
+      class="banner d-flex justify-content-center align-items-center pt-5"
+    >
+      <div class="container my-5 py-5">
+        <div class="row">
+          <div class="col-md-6"></div>
+          <div class="col-md-6">
+            <h1 class="text-capitalize py-3 banner-desc">
+              Ceci est un pratique <br />
+              de page en Bootstrap
+            </h1>
+            <p>
+              <button class="btn btn-order btn-lg me-5 rounded-1">
+                Commander maintenant
+              </button>
+              <button class="btn btn-outline-info rounded-1">Reserver</button>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="available py-5">
+      <div class="container">
+        <div class="row">
+          <div class="card mb-3 border-0 rounded-0">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="./Images/10.jpg" alt="10" class="img-fluid" />
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h5 class="card-title text-capitalize">Le rhum arrangé</h5>
+                  <p class="card-text">
+                    Le rhum arrangé est Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Natus vel sit aperiam id dicta aspernatur,
+                    odit eos repellat cumque architecto saepe in ullam sunt quas
+                    velit et porro tempore recusandae quis illo nihil ea
+                    excepturi? Dolor iste aspernatur, illo reprehenderit minima
+                    ut! Fugiat quo ipsum quia nobis enim, molestias pariatur!
+                  </p>
+                  <p class="card-text">
+                    <a href="#" class="text-muted btn"
+                      >En savoir plus sur le rhum arrangé</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card my-5 border-0 rounded-0">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h5 class="card-title text-capitalize">Le rhum arrangé</h5>
+                  <p class="card-text">
+                    Le rhum arrangé est Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Natus vel sit aperiam id dicta aspernatur,
+                    odit eos repellat cumque architecto saepe in ullam sunt quas
+                    velit et porro tempore recusandae quis illo nihil ea
+                    excepturi? Dolor iste aspernatur, illo reprehenderit minima
+                    ut! Fugiat quo ipsum quia nobis enim, molestias pariatur!
+                  </p>
+                  <p class="card-text">
+                    <a href="#" class="text-muted btn"
+                      >En savoir plus sur le rhum arrangé</a
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div
+                  id="carouselExampleIndicators"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-indicators">
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleIndicators"
+                      data-bs-slide-to="0"
+                      class="active"
+                      aria-current="true"
+                      aria-label="slide 1"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleIndicators"
+                      data-bs-slide-to="1"
+                      aria-label="slide 2"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleIndicators"
+                      data-bs-slide-to="2"
+                      aria-label="slide 3"
+                    ></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="./Images/14.jpg" alt="14" class="d-block w-100" style="height: 400px;" />
+                  i</div>
+                    <div class="carousel-item active">
+                      <img src="./Images/16.jpg" alt="16" class="d-block w-100" style="height: 400px;"/>
+                  i</div>
+                    <div class="carousel-item active">
+                      <img src="./Images/19.jpg" alt="19" class="d-block w-100" style="height: 400px;"/>
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                  >
+                    <spam
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></spam>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                  >
+                    <spam
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></spam>
+                    <span class="visually-hidden">next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 border-0 rounded-0">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="./Images/25.jpg" alt="10" class="img-fluid w-100" style="height: 400px;"/>
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h5 class="card-title text-capitalize">Le rhum arrangé</h5>
+                  <p class="card-text">
+                    Le rhum arrangé est Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Natus vel sit aperiam id dicta aspernatur,
+                    odit eos repellat cumque architecto saepe in ullam sunt quas
+                    velit et porro tempore recusandae quis illo nihil ea
+                    excepturi? Dolor iste aspernatur, illo reprehenderit minima
+                    ut! Fugiat quo ipsum quia nobis enim, molestias pariatur!
+                  </p>
+                  <p class="card-text">
+                    <a href="#" class="text-muted btn"
+                      >En savoir plus sur le rhum arrangé</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./bootstrap.min.js"></script>
+  </body>
+</html>
